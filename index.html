@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTUBER</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/home.js"></script>
+    
+</head>
+<body>
+    <div id="screensaver">
+        <canvas id="myCanvas"; style="border: solid 0px"></canvas>
+    </div>
+    <!-- NAVBAR -->
+    <div class="header">
+        <div class="logo">
+            <img src="/assets/logo/Logo.png" alt="">
+        </div>
+        <div class="menu">
+            <div class="menu_choosen">
+                <a href="/index.html">Home</a>
+            </div>
+            <a href="./html/talent1.html">Talent</a>
+            <a href="./html/figure.html">Figure</a>
+            <a href="./html/merchandise.html">Merchandise</a>
+            <a href="./html/cart.html">Cart</a>
+        </div>
+        <div class="menu_dropdown">
+            <a href=""><img src="/assets/dropdown_menu.png" alt=""></a>
+        
+            <div class="menu_dropdown_list">
+                <div class="menu_dropdown_list_choosen">
+                    <a href="/index.html">Home</a>
+                </div>
+                <a href="./html/talent1.html">Talent</a>
+                <a href="./html/figure.html">Figure</a>
+                <a href="./html/merchandise.html">Merchandise</a>
+                <a href="./html/cart.html">Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIDEO SLIDER -->
+    <div class="slider-container">
+        <div class="text-container">
+            <h3>Join us in 2022 Global Audition!</h3>
+        </div>
+        <div class="slider-outer">
+            <img src="/assets/icon/leftArrow.png" class="prev" alt="">
+            <div class="slider-inner">
+                <video autoplay muted loop src="/assets/videoSlider/videoslider-1.mp4" class="active"></video>
+                <video autoplay muted loop src="/assets/videoSlider/videoslider-2.mp4"></video>
+                <video autoplay muted loop src="/assets/videoSlider/videoslider-3.mp4"></video>
+                <video autoplay muted loop src="/assets/videoSlider/videoslider-4.mp4"></video>
+            </div>
+            <img src="/assets/icon/rightArrow.png" class="next" alt="">
+        </div>
+    </div>
+
+    <!-- BANNER AUDITION -->
+    <div class="audition">
+        <img src="/assets/banner.jpg" alt="">
+        <div class="joinUs">
+            <a href="">Join Us</a>
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-1.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-1">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Vocal - Rahma Alia
+            </div>
+        </div>
+        
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-2.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-2">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Dance - Panicha
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-3.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-3">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Dance - Agatha Skar
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-4.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-4">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Dance - Brandon Artley
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-5.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-5">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Dance - Nayla Tiara
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-6.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-6">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Dance - Tiffany
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-7.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-7">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Vocal - Luvie Irine
+            </div>
+        </div>
+        
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-8.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-8">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Dance - Nea Jjang
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-9.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-9">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Rap - Kim Yokang
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-10.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-10">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Rap - Rika
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-11.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-11">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+               Vocal - Ismi Hanifah
+            </div>
+        </div>
+
+        <div class="box-video">
+            <video class="video__vid" src="/assets/videoAudition/video-12.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <a href="/html/playVideo.html#video-12">
+                        <img src="/assets/icon/play-button.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="title-video">
+                Vocal - Aymelek Cxtw
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div class="footer">
+        <div class="footer_1">FOLLOW US!</div>
+        <div class="footer_2">
+            <a href="https://www.facebook.com/hololivetv/" target="_blank">
+                <img src="/assets/facebook.png" alt="">
+            </a>
+            <a href="https://twitter.com/hololive_en" target="_blank">
+                <img src="/assets/twitter.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank">
+                <img src="/assets/youtube.png" alt="">
+            </a>
+            <a href="https://www.reddit.com/r/Hololive/" target="_blank">
+                <img src="/assets/reddit.png" alt="">
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="/js/screensaver.js"></script>
+
+</html>

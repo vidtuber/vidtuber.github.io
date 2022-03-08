@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>V Tuber - Cart</title>
+        <link rel="stylesheet" href="../css/style.css">
+        
+    </head>
+<body>
+    <div id="screensaver">
+        <canvas id="myCanvas"; style="border: solid 0px"></canvas>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="../assets/Logo.png" alt="">
+        </div>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="./talent1.html">Talent</a>
+            <a href="./figure.html">Figure</a>
+            <a href="./merchandise.html">Merchandise</a>
+            <div class="menu_choosen">
+                <a href="./cart.html">Cart</a>
+            </div>
+        </div>
+        <div class="menu_dropdown">
+            <a href=""><img src="../assets/dropdown_menu.png" alt=""></a>
+            <div class="menu_dropdown_list">
+                <a href="../index.html">Home</a>
+                <a href="./talent1.html">Talent</a>
+                <a href="./figure.html">Figure</a>
+                <a href="./merchandise.html">Merchandise</a>
+                <div class="menu_drowpdown_list_choosen">
+                    <a href="./cart.html">Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<main>
+    <div class="cart">
+        <div id="cart-container">
+            <h3 class="title">Cart</h3>
+            <div class="cart-items" id="cart-items"></div>
+            <div class="cart-total" id="cart-total"></div>
+            <br>
+            <button class="clearbox" id="clear-cart" onclick="clearCart()">Clear Cart</button>
+        </div>
+
+        <div id="cart-cust-divider"></div>
+    
+        <div id="cust-info">
+            <h3 class="title">Customer Information</h3>
+            <label class="textC" for="cust-name">Name</label>
+            <br>
+            <input class="inpt" type="text" placeholder="Enter your name (More than 3 character)" id="cust-name">
+            <br>
+            <label  class="textC" for="cust-gender">Gender</label>
+            <br>
+            <input class="round" type="radio" name="gender" id="genderMale"><a class="textC" >  Male</a>
+            <input class="round" type="radio" name="gender" id="genderFemale"><a class="textC" >  Female</a>
+            <br>
+            <label  class="textC" for="cust-email">Email</label>
+            <br>
+            <input class="inpt" type="text" placeholder="XXX@XXX.com" id="cust-email">
+            <br>
+            <label  class="textC" for="cust-phone">Phone</label>
+            <br>
+            <input class="inpt" type="text" placeholder="+81XXXXXXXXXXX" id="cust-phone">
+            <br>
+            <label class="textC" for="cust-address">Address</label>
+            <br>
+            <input class="inpt" type="text" placeholder="Enter your address (Must ends with Street)" id="cust-address">
+            <br>
+            <br>
+            <button class="checkout" type="button" onclick="validate()"> Check Out</button>
+        </div>
+    </div>
+</main>
+<br>
+<br>
+<footer>
+    <div class="footer">
+        <div class="footer_1">FOLLOW US!</div>
+        <div class="footer_2">
+            <a href="https://www.facebook.com/hololivetv/" target="_blank">
+                <img src="../assets/facebook.png" alt="">
+            </a>
+            <a href="https://twitter.com/hololive_en" target="_blank">
+                <img src="../assets/twitter.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank">
+                <img src="../assets/youtube.png" alt="">
+            </a>
+            <a href="https://www.reddit.com/r/Hololive/" target="_blank">
+                <img src="../assets/reddit.png" alt="">
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/screensaver.js"></script>
+<script src="/js/cart.js"></script>
+</html>
